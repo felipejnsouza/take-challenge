@@ -43,6 +43,20 @@ yarn start:dev
 yarn test
 ```
 
+## Consuming API
+
+The parameters passed from the URL should be like demonstrated below.
+
+
+```sh
+baseURL/api/{ownerName}/{numberToReturn}
+```
+An exemple:
+
+```sh
+http://localhost:3333/api/felipejnsouza/5
+```
+
 
 ## License
 
