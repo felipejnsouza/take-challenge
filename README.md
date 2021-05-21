@@ -51,7 +51,7 @@ The parameters passed from the URL should be like demonstrated below.
 ```sh
 baseURL/api/{ownerName}/{numberToReturn}
 ```
-An exemple:
+An example:
 
 ```sh
 http://localhost:3333/api/felipejnsouza/5
