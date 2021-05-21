@@ -11,7 +11,7 @@ module.exports = async (dataParams) => {
         if (counter > 0 && dataRepository.language === "C#") {
             
             const {
-                full_name,
+                name,
                 owner: { avatar_url },
                 description,
                 language,
@@ -19,7 +19,7 @@ module.exports = async (dataParams) => {
             } = dataRepository;
 
             const formatedData = {
-                full_name,
+                name,
                 owner: { avatar_url },
                 description,
                 language,

@@ -3,7 +3,7 @@ const getGitRepositories = require('../src/services/getGitRepositories');
 
 const DEFAULT_RESPONSE = [
     {
-        "full_name": "takenet/library.data",
+        "name": "library.data",
         "owner": {
           "avatar_url": "https://avatars.githubusercontent.com/u/4369522?v=4"
         },
